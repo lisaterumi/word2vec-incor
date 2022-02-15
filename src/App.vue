@@ -26,7 +26,7 @@ export default {
   watch: {
     '$route': {
       handler: (to, from) => {
-        document.title = to.meta.title || "NP WORD2VEC"
+        document.title = to.meta.title || "WORD2VEC - INCOR 2022"
       },
       immediate: true
     }
