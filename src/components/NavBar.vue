@@ -10,7 +10,7 @@
           width="40"
         />
       </div>
-      <v-toolbar-title>NP Word2Vec</v-toolbar-title>
+      <v-toolbar-title>WORD2VEC - INCOR 2022</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="ml-3">
         <v-btn text to="/">Similar Words</v-btn>
