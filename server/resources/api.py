@@ -7,7 +7,8 @@ def load_model():
     print("Loading model...")
     #return Word2Vec.load(os.path.join(os.getcwd(), "server/static/model/word2vec_NP.bin"))
     #return  KeyedVectors.load_word2vec_format(os.path.join(os.getcwd(), "server/static/model/word2vec_NP.bin"), binary=True)
-    return  Word2Vec.load(os.path.join(os.getcwd(), "server/static/model/word2vec-incor-2022.model"))
+    #return  Word2Vec.load(os.path.join(os.getcwd(), "server/static/model/word2vec-incor-2022.model"))
+    return  KeyedVectors.load_word2vec_format(os.path.join(os.getcwd(), "server/static/model/word2vec-incor-2022.model"), binary=False)
 
 model = load_model()
 
